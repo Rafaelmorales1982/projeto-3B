@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <div class="">
+        <p>Media dos alunos</p>
+        <form class="" method="post">
+          <p>
+            <label>Aluno 01
+              <input type="number" id="nota01" value="" max="10">
+              <!--
+                Neste exemplo, o campo de entrada numérica permitirá que os usuários 
+                insiram valores até 10. Qualquer
+                valor maior do que 10 será considerado inválido pelo navegador.
+              -->
+            </label>
+          </p>
+          <p>
+            <label>Aluno 02
+              <input type="number" id="nota02" value="" max="10">
+            </label>
+          </p>
+          <p>
+            <label>Aluno 03
+              <input type="number" id="nota03" value="" max="10">
+            </label>
+          </p>
+          <p>
+            <label>Aluno 04
+              <input type="number" id="nota04" value="" max="10">
+            </label>
+          </p>
+          <p>
+            <input type="button" id="enviar" value="Enviar">
+            <br>
+            <br>
+            <label> Resultado média:</label>
+            <input type="text" id="txtMedia" value="" readonly>
+            <!--
+              No HTML, você pode adicionar o atributo readonly a um elemento
+               de formulário para torná-lo somente leitura, ou seja, os usuários
+                poderão visualizar o valor, mas não poderão modificá-lo
+              -->
+              <br>
+              <br>
+              <label>Resultador final se a média maior ou igual 60 Aprovado menor que  60 Reprovado</label>
+              <br>
+              <p id="tx"></p>
+            <input type="text" id="txtResultado" value="" >
+
+
+          </p>
+        </form>
+      </div>
+
+<script src="./main.js"></script>
+</body>
+</html>
